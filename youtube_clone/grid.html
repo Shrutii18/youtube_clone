@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;">
+        <div style="background-color: lightblue; margin-right: 7px;">div1</div>
+        <div style="background-color: lightpink; text-align: center; margin-right: 7px;">div2 <p>text</p></div>
+        <div style="background-color: lightgreen;">div3 <p>text</p></div>
+    </div>
+
+    <div style="
+        margin-top: 7px;
+        display: grid;
+        grid-template-columns: 100px 100px;">
+        <div style="background-color: lightblue;
+                    margin-right: 7px;
+                    text-align: center;">div1</div>
+        <div style="background-color: lightpink;">div2 <p>text</p></div>
+    </div>
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>
+    <div style="
+    display: grid;
+    grid-template-columns: 100px 1fr ;">
+    <div style="background-color: lightblue; margin-right: 7px;">div1</div>
+    <div style="background-color: lightpink; text-align: center; margin-right: 7px;">div2 </div>
+</div>
+
+<div style="
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: 100px 100px;">
+    <div style="background-color: lightblue;
+                margin-right: 7px;
+                text-align: center;">div1</div>
+    <div style="background-color: lightpink;">div2 </div>
+</div>
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>   
+<div style="
+display: grid;
+column-gap: 20px;
+row-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr;">
+<div style="background-color: lightpink; height: 200px; ">fr1 </div>
+<div style="background-color: lightblue; height: 200px; ">fr2</div>
+<div style="background-color: lightpink; height: 200px; ">fr3 </div>
+<div style="background-color: lightblue; height: 200px; ">fr4</div>
+<div style="background-color: lightpink; height: 200px; ">fr5 </div>
+<div style="background-color: lightblue; height: 200px; ">fr6</div>
+</body>
+</html>
